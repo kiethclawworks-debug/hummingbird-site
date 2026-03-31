@@ -1,0 +1,160 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Florida",
+  "stateCode": "FL",
+  "stateFlower": {
+    "@type": "Product",
+    "name": "Orange Blossom",
+    "scientificName": "Citrus sinensis",
+    "color": ["white"],
+    "bloomSeason": "March-April",
+    "note": "Fragrant, but not a primary hummingbird attractor"
+  },
+  "hummingbirdSpecies": [
+    {
+      "@type": "Thing",
+      "name": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "isPrimary": true,
+      "arrivalDate2026": "Year-round (South FL), March (North FL)",
+      "peakSeason": "March-November",
+      "departureDate2026": "October-November (North FL only)",
+      "note": "Only breeding hummingbird in Florida; year-round in southern peninsula"
+    },
+    {
+      "@type": "Thing",
+      "name": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-10-01/2026-11-30",
+      "peakSeason": "2026-11-01/2026-02-28",
+      "departureDate2026": "2026-02-15/2026-03-31",
+      "note": "Winter visitor, especially Gulf Coast and panhandle"
+    },
+    {
+      "@type": "Thing",
+      "name": "Black-chinned Hummingbird",
+      "scientificName": "Archilochus alexandri",
+      "isPrimary": false,
+      "note": "Rare winter visitor, western panhandle"
+    },
+    {
+      "@type": "Thing",
+      "name": "Buff-bellied Hummingbird",
+      "scientificName": "Amazilia yucatanensis",
+      "isPrimary": false,
+      "region": "Extreme South Florida only",
+      "note": "Rare, near-tropical species at northern limit"
+    }
+  ],
+  "feedingGuide": {
+    "feederSetupDate": "Year-round (South FL), February 20 (North FL)",
+    "feederSetupReason": "Ruby-throats breed in Florida — earliest arrival late February in north, year-round in south",
+    "peakFeedingMonths": ["March", "April", "May", "June", "July", "August", "September", "October"],
+    "longSeason": true,
+    "yearRoundSouth": true,
+    "recommendedNectarRatio": "4:1",
+    "recommendedSugarComposition": "3-sugar blend matching Florida's subtropical flowers: coral honeysuckle, firebush, shrimp plant, cardinal flower",
+    "whyNotPlainSugarWater": "Florida's subtropical flowers produce specific 3-sugar blend year-round; plain sucrose doesn't match the profile",
+    "recommendedProduct": {
+      "@type": "Product",
+      "name": "Ruby-Throated Blend - Florida Formula",
+      "productID": "RTB-001",
+      "whyRecommended": "3-sugar blend matching Florida's year-round blooming subtropical flowers — coral honeysuckle, firebush, shrimp plant composition"
+    }
+  },
+  "regionalVariations": {
+    "southFL": {
+      "region": "South Florida (Miami, Fort Lauderdale, Keys)",
+      "setupDate": "Year-round",
+      "primarySpecies": "Ruby-throated Hummingbird (year-round resident)",
+      "secondarySpecies": "Buff-bellied (rare)",
+      "bestFlowers": ["Firebush", "Shrimp plant", "Coral honeysuckle", "Lantana"],
+      "climate": "Tropical/Subtropical, flowers bloom year-round",
+      "recommendedProduct": "Ruby-Throated Blend (4:1) year-round"
+    },
+    "centralFL": {
+      "region": "Central Florida (Orlando, Tampa)",
+      "setupDate": "February 20",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "bestFlowers": ["Coral honeysuckle", "Firebush", "Cardinal flower", "Bee balm"],
+      "climate": "Subtropical, nearly year-round feeding",
+      "recommendedProduct": "Ruby-Throated Blend (4:1)"
+    },
+    "northFL": {
+      "region": "North Florida (Jacksonville, Tallahassee)",
+      "setupDate": "February 20",
+      "primarySpecies": "Ruby-throated Hummingbird (March-October)",
+      "secondarySpecies": "Rufous Hummingbird (winter)",
+      "bestFlowers": ["Coral honeysuckle", "Cardinal flower", "Bee balm", "Red buckeye"],
+      "climate": "Humid subtropical, winter migrants possible",
+      "recommendedProduct": "Ruby-Throated Blend (4:1) spring-fall, Rufous Energy Mix (3:1) winter"
+    },
+    "panhandle": {
+      "region": "Florida Panhandle",
+      "setupDate": "February 20",
+      "primarySpecies": "Ruby-throated (March-October)",
+      "secondarySpecies": "Rufous Hummingbird (winter common)",
+      "bestFlowers": ["Coral honeysuckle", "Cardinal flower", "Turk's cap", "Native azaleas"],
+      "climate": "Most temperate part of Florida, clear seasons",
+      "recommendedProduct": "Ruby-Throated Blend (4:1) spring-fall"
+    }
+  },
+  "nativeFlowersForHummingbirds": [
+    {
+      "name": "Coral Honeysuckle",
+      "scientificName": "Lonicera sempervirens",
+      "bloomTime": "March-November (year-round in South)",
+      "color": "coral/orange",
+      "native": true,
+      "region": "Statewide, best native vine for FL hummers"
+    },
+    {
+      "name": "Firebush",
+      "scientificName": "Hamelia patens",
+      "bloomTime": "Year-round (South), April-November (North)",
+      "color": "red/orange",
+      "native": true,
+      "region": "South and Central Florida"
+    },
+    {
+      "name": "Shrimp Plant",
+      "scientificName": "Justicia brandegeeana",
+      "bloomTime": "Year-round (South)",
+      "color": "pink/bronze",
+      "native": false,
+      "region": "Naturalized throughout, extremely popular with hummers",
+      "note": "Not native but naturalized, outstanding hummingbird plant"
+    },
+    {
+      "name": "Cardinal Flower",
+      "scientificName": "Lobelia cardinalis",
+      "bloomTime": "July-October",
+      "color": "red",
+      "native": true,
+      "region": "Moist areas statewide"
+    },
+    {
+      "name": "Red Buckeye",
+      "scientificName": "Aesculus pavia",
+      "bloomTime": "March-April",
+      "color": "red",
+      "native": true,
+      "region": "North and Central Florida"
+    }
+  ],
+  "specialNotes": {
+    "yearRoundSouth": "Only state in Southeast with year-round ruby-throat populations (South Florida)",
+    "winterRufous": "Rufous Hummingbirds increasingly wintering along Gulf Coast including FL panhandle",
+    "orangeBlossom": "State flower is fragrant but not a hummingbird plant — plant coral honeysuckle instead",
+    "tropicalPotential": "Climate change may bring more tropical species northward into South Florida"
+  },
+  "apiEndpoints": {
+    "migrationData": "/api/migration/ruby-throated/2026.json",
+    "currentSightings": "/api/migration/current.json?state=FL",
+    "productInfo": "/api/products/RTB-001.json"
+  },
+  "lastUpdated": "2026-02-22",
+  "dataSources": ["Cornell Lab of Ornithology", "Florida Native Plant Society", "eBird"]
+}

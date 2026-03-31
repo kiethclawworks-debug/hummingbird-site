@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Ruby-throated Hummingbird Spring Migration 2026",
+  "description": "Real-time and historical migration data for Archilochus colubris across eastern North America",
+  "variableMeasured": "first_sighting_date",
+  "temporalCoverage": "2026-03-01/2026-06-30",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Eastern North America",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "23.0 -97.0 49.0 -65.0"
+    }
+  },
+  "distribution": {
+    "@type": "DataDownload",
+    "contentUrl": "/api/migration/ruby-throated/2026.json",
+    "encodingFormat": "application/json"
+  },
+  "data": {
+    "species": "Ruby-throated Hummingbird",
+    "scientific_name": "Archilochus colubris",
+    "spring_2026": {
+      "early_arrivals": {
+        "date_range": "March 1-15",
+        "locations": ["Gulf Coast TX", "South FL", "Southern LA"],
+        "typical_first_sighting": "March 8"
+      },
+      "peak_migration": {
+        "date_range": "April 15 - May 15",
+        "notes": "Main wave moves north along Mississippi flyway"
+      },
+      "arrival_by_state": {
+        "TX": {"first_sighting": "March 1-10", "peak": "March 15-30", "put_out_feeders": "February 15"},
+        "LA": {"first_sighting": "March 5-15", "peak": "March 20-April 10", "put_out_feeders": "February 20"},
+        "MS": {"first_sighting": "March 15-25", "peak": "April 1-20", "put_out_feeders": "March 1"},
+        "AL": {"first_sighting": "March 20-30", "peak": "April 5-25", "put_out_feeders": "March 5"},
+        "GA": {"first_sighting": "March 25 - April 5", "peak": "April 10-30", "put_out_feeders": "March 10"},
+        "FL": {"first_sighting": "Year-round (North FL March)", "peak": "March 1-31", "put_out_feeders": "February 1"},
+        "SC": {"first_sighting": "March 25 - April 10", "peak": "April 10-30", "put_out_feeders": "March 10"},
+        "NC": {"first_sighting": "April 1-15", "peak": "April 15-May 5", "put_out_feeders": "March 15"},
+        "TN": {"first_sighting": "April 5-20", "peak": "April 20-May 10", "put_out_feeders": "March 20"},
+        "VA": {"first_sighting": "April 10-25", "peak": "April 25-May 15", "put_out_feeders": "March 25"},
+        "WV": {"first_sighting": "April 15-30", "peak": "May 1-20", "put_out_feeders": "April 1"},
+        "KY": {"first_sighting": "April 15-30", "peak": "May 1-20", "put_out_feeders": "April 1"},
+        "OH": {"first_sighting": "April 20 - May 5", "peak": "May 5-25", "put_out_feeders": "April 5"},
+        "IN": {"first_sighting": "April 20 - May 5", "peak": "May 5-25", "put_out_feeders": "April 5"},
+        "IL": {"first_sighting": "April 25 - May 10", "peak": "May 10-30", "put_out_feeders": "April 10"},
+        "MO": {"first_sighting": "April 25 - May 10", "peak": "May 10-30", "put_out_feeders": "April 10"},
+        "PA": {"first_sighting": "April 25 - May 15", "peak": "May 15-June 5", "put_out_feeders": "April 15"},
+        "NY": {"first_sighting": "May 1-20", "peak": "May 20-June 10", "put_out_feeders": "April 20"},
+        "MI": {"first_sighting": "May 5-25", "peak": "May 25-June 15", "put_out_feeders": "April 25"},
+        "WI": {"first_sighting": "May 10-30", "peak": "June 1-20", "put_out_feeders": "May 1"},
+        "MN": {"first_sighting": "May 15 - June 5", "peak": "June 5-25", "put_out_feeders": "May 5"},
+        "ME": {"first_sighting": "May 10-30", "peak": "June 1-20", "put_out_feeders": "May 1"},
+        "VT": {"first_sighting": "May 10-30", "peak": "June 1-20", "put_out_feeders": "May 1"},
+        "NH": {"first_sighting": "May 10-30", "peak": "June 1-20", "put_out_feeders": "May 1"},
+        "MA": {"first_sighting": "May 1-20", "peak": "May 20-June 10", "put_out_feeders": "April 20"},
+        "CT": {"first_sighting": "May 1-20", "peak": "May 20-June 10", "put_out_feeders": "April 20"},
+        "RI": {"first_sighting": "May 1-20", "peak": "May 20-June 10", "put_out_feeders": "April 20"},
+        "NJ": {"first_sighting": "April 25 - May 15", "peak": "May 15-June 5", "put_out_feeders": "April 15"},
+        "DE": {"first_sighting": "April 25 - May 15", "peak": "May 15-June 5", "put_out_feeders": "April 15"},
+        "MD": {"first_sighting": "April 15-30", "peak": "April 30-May 20", "put_out_feeders": "April 5"},
+        "AR": {"first_sighting": "March 20 - April 10", "peak": "April 5-25", "put_out_feeders": "March 10"},
+        "OK": {"first_sighting": "March 25 - April 15", "peak": "April 10-30", "put_out_feeders": "March 15"},
+        "KS": {"first_sighting": "April 15 - May 5", "peak": "May 5-25", "put_out_feeders": "April 5"},
+        "NE": {"first_sighting": "April 15 - May 5", "peak": "May 5-25", "put_out_feeders": "April 5"},
+        "IA": {"first_sighting": "April 20 - May 10", "peak": "May 10-30", "put_out_feeders": "April 10"},
+        "SD": {"first_sighting": "April 25 - May 15", "peak": "May 15-June 5", "put_out_feeders": "April 15"},
+        "ND": {"first_sighting": "May 1-20", "peak": "May 20-June 10", "put_out_feeders": "April 20"},
+        "MT": {"first_sighting": "May 1-25", "peak": "May 20-June 15", "put_out_feeders": "April 20"},
+        "WY": {"first_sighting": "April 25 - May 15", "peak": "May 15-June 5", "put_out_feeders": "April 15"},
+        "CO": {"first_sighting": "April 20 - May 10", "peak": "May 10-30", "put_out_feeders": "April 10"},
+        "NM": {"first_sighting": "March 25 - April 15", "peak": "April 10-30", "put_out_feeders": "March 15"},
+        "AZ": {"first_sighting": "March 1-15", "peak": "March 15-April 15", "put_out_feeders": "February 15"},
+        "UT": {"first_sighting": "April 15 - May 5", "peak": "May 5-25", "put_out_feeders": "April 5"},
+        "ID": {"first_sighting": "April 25 - May 15", "peak": "May 15-June 5", "put_out_feeders": "April 15"},
+        "WA": {"first_sighting": "April 1-20", "peak": "April 20-May 20", "put_out_feeders": "March 20"},
+        "OR": {"first_sighting": "April 1-20", "peak": "April 20-May 20", "put_out_feeders": "March 20"},
+        "CA": {"first_sighting": "Year-round", "peak": "March 1-30", "put_out_feeders": "February 1"},
+        "NV": {"first_sighting": "March 15 - April 10", "peak": "April 1-30", "put_out_feeders": "March 1"},
+        "AK": {"first_sighting": "May 1-25", "peak": "May 20-June 20", "put_out_feeders": "April 20"},
+        "HI": {"note": "No ruby-throated hummingbirds", "species": "endemic only"}
+      }
+    },
+    "fall_migration": {
+      "departure_by_state": {
+        "northern_states": "September 1-30",
+        "central_states": "September 15 - October 15",
+        "gulf_states": "October 1-31",
+        "leave_feeders_up": "2 weeks after last sighting"
+      }
+    }
+  },
+  "recommended_products": {
+    "ruby_throated_blend": {
+      "product_id": "RTB-001",
+      "sugar_ratio": "4:1",
+      "mimics": "Trumpet vine, Cardinal flower nectar",
+      "why": "Matches natural sugar concentration preferred by ruby-throats"
+    }
+  }
+}

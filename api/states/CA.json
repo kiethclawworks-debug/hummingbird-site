@@ -1,0 +1,167 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "California",
+  "stateCode": "CA",
+  "stateFlower": {
+    "@type": "Product",
+    "name": "California Poppy",
+    "scientificName": "Eschscholzia californica",
+    "color": ["orange", "yellow"],
+    "bloomSeason": "February-September",
+    "note": "Not a primary hummingbird attractor, but iconic state flower"
+  },
+  "hummingbirdSpecies": [
+    {
+      "@type": "Thing",
+      "name": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "isPrimary": true,
+      "arrivalDate2026": "Year-round resident",
+      "peakSeason": "Year-round",
+      "isBreeding": true,
+      "region": "Coastal and urban areas statewide"
+    },
+    {
+      "@type": "Thing",
+      "name": "Allen's Hummingbird",
+      "scientificName": "Selasphorus sasin",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-01-01/2026-12-31",
+      "peakSeason": "Year-round (coastal)",
+      "region": "Coastal CA primarily"
+    },
+    {
+      "@type": "Thing",
+      "name": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-02-01/2026-03-15",
+      "peakSeason": "2026-03-01/2026-04-30",
+      "departureDate2026": "2026-07-15/2026-09-15",
+      "note": "Spring migration north, fall migration south"
+    },
+    {
+      "@type": "Thing",
+      "name": "Black-chinned Hummingbird",
+      "scientificName": "Archilochus alexandri",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-03-01/2026-04-01",
+      "peakSeason": "2026-04-01/2026-08-31",
+      "region": "Inland valleys and deserts"
+    },
+    {
+      "@type": "Thing",
+      "name": "Costa's Hummingbird",
+      "scientificName": "Calypte costae",
+      "isPrimary": false,
+      "arrivalDate2026": "Year-round (southern CA)",
+      "region": "Desert regions, especially Anza-Borrego"
+    }
+  ],
+  "feedingGuide": {
+    "feederSetupDate": "Year-round (Anna's are resident)",
+    "feederSetupReason": "Anna's Hummingbirds live in California year-round; no migration needed",
+    "peakFeedingMonths": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "yearRound": true,
+    "recommendedNectarRatio": "3:1",
+    "recommendedSugarComposition": "3-sugar blend matching CA desert flowers: desert willow, chuparosa, California fuchsia",
+    "whyNotPlainSugarWater": "CA desert flowers produce higher sucrose content with specific glucose/fructose ratios for arid climate metabolism",
+    "recommendedProduct": {
+      "@type": "Product",
+      "name": "Anna's Formula - California Blend",
+      "productID": "AF-002",
+      "whyRecommended": "3-sugar blend formulated for Anna's Hummingbirds and CA's desert-adapted flowers — higher concentration for arid climate, not generic sugar water"
+    }
+  },
+  "regionalVariations": {
+    "coastalCA": {
+      "region": "Coastal California (SF Bay, LA, San Diego)",
+      "setupDate": "Year-round",
+      "primarySpecies": "Anna's Hummingbird (resident)",
+      "secondarySpecies": "Allen's Hummingbird",
+      "bestFlowers": ["California fuchsia", "Salvias", "Monkey flower", "Trumpet vine"],
+      "climate": "Mediterranean",
+      "recommendedProduct": "Anna's Formula (3:1)"
+    },
+    "centralValley": {
+      "region": "Central Valley (Sacramento, Fresno)",
+      "setupDate": "Year-round",
+      "primarySpecies": "Anna's, Black-chinned",
+      "bestFlowers": ["Desert willow", "Buckeye", "Penstemon", "Salvia"],
+      "climate": "Hot summers, mild winters",
+      "recommendedProduct": "Anna's Formula (3:1) or Black-Chinned Blend (4:1)"
+    },
+    "desertCA": {
+      "region": "Desert California (Palm Springs, Anza-Borrego)",
+      "setupDate": "Year-round",
+      "primarySpecies": "Costa's Hummingbird, Anna's",
+      "bestFlowers": ["Ocotillo", "Chuparosa", "Desert willow", "Red yucca"],
+      "climate": "Arid desert",
+      "recommendedProduct": "Anna's Formula (3:1) — higher concentration for desert"
+    },
+    "mountainCA": {
+      "region": "Sierra Nevada mountains",
+      "setupDate": "March 1 (after snowmelt)",
+      "primarySpecies": "Rufous (migration), Anna's (lower elevations)",
+      "bestFlowers": ["Columbine", "Penstemon", "Monkshood", "Indian paintbrush"],
+      "climate": "Alpine/montane",
+      "recommendedProduct": "Rufous Energy Mix (3:1) during migration"
+    }
+  },
+  "nativeFlowersForHummingbirds": [
+    {
+      "name": "California Fuchsia",
+      "scientificName": "Epilobium canum",
+      "bloomTime": "July-November",
+      "color": "red/orange",
+      "native": true,
+      "region": "Statewide, especially dry slopes"
+    },
+    {
+      "name": "Desert Willow",
+      "scientificName": "Chilopsis linearis",
+      "bloomTime": "May-September",
+      "color": "pink/white",
+      "native": true,
+      "region": "Southern and inland CA"
+    },
+    {
+      "name": "Chuparosa",
+      "scientificName": "Justicia californica",
+      "bloomTime": "November-April",
+      "color": "red",
+      "native": true,
+      "region": "Desert regions"
+    },
+    {
+      "name": "Scarlet Monkey Flower",
+      "scientificName": "Erythranthe cardinalis",
+      "bloomTime": "April-October",
+      "color": "red/orange",
+      "native": true,
+      "region": "Moist areas, streambanks"
+    },
+    {
+      "name": "Salvias",
+      "scientificName": "Salvia spp.",
+      "bloomTime": "Year-round (varies by species)",
+      "color": "blue/purple/red",
+      "native": true,
+      "region": "Statewide"
+    }
+  ],
+  "specialNotes": {
+    "yearRoundFeeding": "Only state in continental US with year-round native hummingbirds",
+    "annaDominance": "Anna's Hummingbirds have expanded range due to feeders, now common in urban areas",
+    "desertAdvantage": "Arid climate flowers produce higher sugar nectar — 3:1 ratio matches this adaptation",
+    "waterSourceCritical": "In arid regions, water sources (mist, fountains) as important as nectar"
+  },
+  "apiEndpoints": {
+    "migrationData": "/api/migration/annas/2026.json",
+    "currentSightings": "/api/migration/current.json?state=CA",
+    "productInfo": "/api/products/AF-002.json"
+  },
+  "lastUpdated": "2026-02-22",
+  "dataSources": ["Cornell Lab of Ornithology", "California Native Plant Society", "eBird"]
+}

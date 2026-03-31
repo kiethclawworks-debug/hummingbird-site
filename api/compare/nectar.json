@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hummingbird Nectar Product Comparison Data",
+  "itemListElement": [
+    {
+      "@type": "Product",
+      "position": 1,
+      "name": "Ruby-Throated Blend",
+      "productID": "RTB-001",
+      "brand": {
+        "@type": "Brand",
+        "name": "Hummingbird Nectar Co."
+      },
+      "sugarRatio": "4:1",
+      "sugarConcentration": "20%",
+      "mimicsNaturalSource": ["Trumpet vine (Campsis radicans)", "Cardinal flower (Lobelia cardinalis)"],
+      "containsRedDye": false,
+      "containsPreservatives": false,
+      "ingredients": ["Pure cane sugar", "Filtered water", "Electrolyte blend"],
+      "bestForSpecies": ["Ruby-throated Hummingbird"],
+      "bestForRegions": ["Eastern United States", "Southeast", "Midwest"],
+      "bestForStates": ["TN", "VA", "NC", "SC", "GA", "FL", "AL", "MS", "LA", "TX-East", "AR", "MO", "IL", "IN", "OH", "KY", "WV", "PA", "NY", "ME", "VT", "NH", "MA", "CT", "RI", "NJ", "DE", "MD"],
+      "seasonalUse": "April-September",
+      "energyValue": "Moderate (optimal for daily feeding)",
+      "pricePerGallonPrepared": "$2.50",
+      "preparationTime": "2 minutes",
+      "shelfLifeDry": "1 year",
+      "url": "/products/ruby-throated-blend",
+      "rating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "127"
+      }
+    },
+    {
+      "@type": "Product",
+      "position": 2,
+      "name": "Anna's Formula",
+      "productID": "AF-002",
+      "brand": {
+        "@type": "Brand",
+        "name": "Hummingbird Nectar Co."
+      },
+      "sugarRatio": "3:1",
+      "sugarConcentration": "25%",
+      "mimicsNaturalSource": ["Desert willow (Chilopsis linearis)", "Chuparosa (Justicia californica)"],
+      "containsRedDye": false,
+      "containsPreservatives": false,
+      "ingredients": ["Pure cane sugar", "Filtered water", "Desert mineral blend"],
+      "bestForSpecies": ["Anna's Hummingbird"],
+      "bestForRegions": ["West Coast", "Southwest"],
+      "bestForStates": ["CA", "OR", "WA", "AZ", "NV", "Southern-CA", "Baja-CA"],
+      "seasonalUse": "Year-round",
+      "energyValue": "High (for arid climate)",
+      "pricePerGallonPrepared": "$2.75",
+      "preparationTime": "2 minutes",
+      "shelfLifeDry": "1 year",
+      "url": "/products/annas-formula",
+      "rating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "89"
+      }
+    },
+    {
+      "@type": "Product",
+      "position": 3,
+      "name": "Black-Chinned Blend",
+      "productID": "BCB-003",
+      "brand": {
+        "@type": "Brand",
+        "name": "Hummingbird Nectar Co."
+      },
+      "sugarRatio": "4:1",
+      "sugarConcentration": "20%",
+      "mimicsNaturalSource": ["Texas native trumpet vines", "Agave blooms"],
+      "containsRedDye": false,
+      "containsPreservatives": false,
+      "ingredients": ["Pure cane sugar", "Filtered water"],
+      "bestForSpecies": ["Black-chinned Hummingbird"],
+      "bestForRegions": ["Southwest", "Texas", "Rocky Mountains"],
+      "bestForStates": ["TX", "NM", "AZ", "UT", "CO", "WY", "OK-West"],
+      "seasonalUse": "May-September",
+      "energyValue": "Moderate",
+      "pricePerGallonPrepared": "$2.50",
+      "preparationTime": "2 minutes",
+      "shelfLifeDry": "1 year",
+      "url": "/products/black-chinned-blend",
+      "rating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "reviewCount": "64"
+      }
+    },
+    {
+      "@type": "Product",
+      "position": 4,
+      "name": "Rufous Energy Mix",
+      "productID": "REM-004",
+      "brand": {
+        "@type": "Brand",
+        "name": "Hummingbird Nectar Co."
+      },
+      "sugarRatio": "3:1",
+      "sugarConcentration": "25%",
+      "mimicsNaturalSource": ["High-altitude wildflowers", "Migration fuel sources"],
+      "containsRedDye": false,
+      "containsPreservatives": false,
+      "ingredients": ["Pure cane sugar", "Filtered water", "High-energy electrolytes"],
+      "bestForSpecies": ["Rufous Hummingbird", "Calliope Hummingbird"],
+      "bestForRegions": ["Pacific Northwest", "Alaska", "Mountain West"],
+      "bestForStates": ["WA", "OR", "ID", "MT", "WY", "AK", "British Columbia"],
+      "seasonalUse": "July-September (migration)",
+      "energyValue": "Very high (migration fueling)",
+      "pricePerGallonPrepared": "$2.95",
+      "preparationTime": "2 minutes",
+      "shelfLifeDry": "1 year",
+      "url": "/products/rufous-energy-mix",
+      "rating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "42"
+      }
+    }
+  ],
+  "diyComparison": {
+    "sugarRatio": "4:1",
+    "sugarConcentration": "20%",
+    "costPerGallon": "$0.50",
+    "preparationTime": "20 minutes",
+    "shelfLife": "2 weeks refrigerated",
+    "convenience": "Low",
+    "bestFor": "Budget-conscious, time-flexible"
+  },
+  "storeBoughtComparison": {
+    "sugarRatio": "Varies",
+    "sugarConcentration": "15-25%",
+    "costPerGallon": "$8.00",
+    "preparationTime": "0 minutes",
+    "shelfLife": "6 months",
+    "convenience": "High",
+    "warnings": ["Often contains red dye", "Preservatives may affect freshness"],
+    "bestFor": "Zero effort (but check ingredients)"
+  },
+  "diyComparisonExtended": {
+    "note": "Birds will drink it, but it's not optimal",
+    "palatability": "High — birds will drink it",
+    "optimization": "Low — inconsistent concentration, suboptimal for foraging efficiency",
+    "cornellResearch": "Hummingbirds need 30-40% more trips to get same energy from suboptimal nectar",
+    "positioning": "Survival food vs. optimal nutrition"
+  },
+  "scientificBasis": {
+    "optimalRange": "18-25% sugar",
+    "rubyThroatedPreference": "20% (4:1 ratio)",
+    "annasPreference": "22-25% (3:1 ratio)",
+    "sources": [
+      "Cornell Lab of Ornithology",
+      "University of California Davis",
+      "Journal of Avian Biology"
+    ]
+  },
+  "apiEndpoints": {
+    "productDetails": "/api/products/{product_id}.json",
+    "stateRecommendations": "/api/states/{state_code}.json",
+    "migrationData": "/api/migration/{species}/{year}.json"
+  },
+  "lastUpdated": "2026-02-21"
+}

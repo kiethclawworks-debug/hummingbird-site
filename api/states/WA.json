@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Washington",
+  "stateCode": "WA",
+  "stateFlower": {
+    "@type": "Product",
+    "name": "Coast Rhododendron",
+    "scientificName": "Rhododendron macrophyllum",
+    "color": ["pink", "purple", "white"],
+    "bloomSeason": "April-June",
+    "note": "Not a primary hummingbird attractor, but iconic native shrub"
+  },
+  "hummingbirdSpecies": [
+    {
+      "@type": "Thing",
+      "name": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "isPrimary": true,
+      "arrivalDate2026": "2026-02-15/2026-03-15",
+      "peakSeason": "2026-03-15/2026-04-30",
+      "departureDate2026": "2026-07-15/2026-08-31",
+      "note": "Breeds in Pacific Northwest, aggressive and territorial"
+    },
+    {
+      "@type": "Thing",
+      "name": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "isPrimary": false,
+      "arrivalDate2026": "Year-round (western WA)",
+      "peakSeason": "Year-round",
+      "note": "Expanding north, now year-round in Puget Sound area"
+    },
+    {
+      "@type": "Thing",
+      "name": "Calliope Hummingbird",
+      "scientificName": "Selasphorus calliope",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-04-01/2026-05-15",
+      "peakSeason": "2026-05-01/2026-06-30",
+      "note": "Smallest US hummingbird, breeds at higher elevations"
+    },
+    {
+      "@type": "Thing",
+      "name": "Black-chinned Hummingbird",
+      "scientificName": "Archilochus alexandri",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-04-15/2026-05-15",
+      "region": "Eastern WA primarily"
+    }
+  ],
+  "feedingGuide": {
+    "feederSetupDate": "2026-02-25",
+    "feederSetupReason": "Rufous Hummingbirds arrive early February-March, earliest of all US hummers",
+    "peakFeedingMonths": ["March", "April", "May", "June", "July"],
+    "recommendedNectarRatio": "3:1",
+    "recommendedSugarComposition": "3-sugar blend matching Pacific Northwest wildflowers: red-flowering currant, columbine, penstemon",
+    "whyNotPlainSugarWater": "WA wildflowers produce high-energy nectar for short breeding season; 3:1 matches this profile",
+    "recommendedProduct": {
+      "@type": "Product",
+      "name": "Rufous Energy Mix - Pacific Northwest Formula",
+      "productID": "REM-004",
+      "whyRecommended": "3-sugar blend formulated for Rufous Hummingbirds and Pacific Northwest wildflowers — higher concentration for migration fueling and short breeding season"
+    }
+  },
+  "regionalVariations": {
+    "westernWA": {
+      "region": "Western Washington (Seattle, Olympia, Bellingham)",
+      "setupDate": "2026-02-25",
+      "primarySpecies": "Rufous Hummingbird (breeding)",
+      "secondarySpecies": "Anna's Hummingbird (year-round)",
+      "bestFlowers": ["Red-flowering currant", "Columbine", "Salmonberry", "Native honeysuckle"],
+      "climate": "Marine west coast, mild summers",
+      "recommendedProduct": "Rufous Energy Mix (3:1) spring/summer, Anna's Formula (3:1) year-round"
+    },
+    "easternWA": {
+      "region": "Eastern Washington (Spokane, Tri-Cities)",
+      "setupDate": "2026-03-15",
+      "primarySpecies": "Rufous, Black-chinned, Calliope",
+      "bestFlowers": ["Penstemon", "Scarlet gilia", "Indian paintbrush", "Snowberry"],
+      "climate": "Continental, hot dry summers",
+      "recommendedProduct": "Rufous Energy Mix (3:1)"
+    },
+    "olympicPeninsula": {
+      "region": "Olympic Peninsula",
+      "setupDate": "2026-03-01",
+      "primarySpecies": "Rufous Hummingbird",
+      "bestFlowers": ["Red columbine", "Salmonberry", "Thimbleberry", "Red elderberry"],
+      "climate": "Temperate rainforest",
+      "recommendedProduct": "Rufous Energy Mix (3:1)"
+    }
+  },
+  "nativeFlowersForHummingbirds": [
+    {
+      "name": "Red-Flowering Currant",
+      "scientificName": "Ribes sanguineum",
+      "bloomTime": "March-May",
+      "color": "pink/red",
+      "native": true,
+      "region": "Western WA, blooms when Rufous arrive"
+    },
+    {
+      "name": "Red Columbine",
+      "scientificName": "Aquilegia formosa",
+      "bloomTime": "April-August",
+      "color": "red/yellow",
+      "native": true,
+      "region": "Statewide, moist areas"
+    },
+    {
+      "name": "Penstemons",
+      "scientificName": "Penstemon spp.",
+      "bloomTime": "May-July",
+      "color": "blue/purple/pink",
+      "native": true,
+      "region": "Eastern WA primarily"
+    },
+    {
+      "name": "Salmonberry",
+      "scientificName": "Rubus spectabilis",
+      "bloomTime": "March-May",
+      "color": "pink/magenta",
+      "native": true,
+      "region": "Western WA forests"
+    },
+    {
+      "name": "Indian Paintbrush",
+      "scientificName": "Castilleja spp.",
+      "bloomTime": "May-July",
+      "color": "orange/red",
+      "native": true,
+      "region": "Mountain meadows, eastern WA"
+    }
+  ],
+  "specialNotes": {
+    "rufousAggression": "Rufous are the most aggressive hummingbirds in North America — expect feeder wars",
+    "earlyArrival": "Rufous arrive as early as February — put feeders out before you think you need to",
+    "annaExpansion": "Anna's Hummingbirds expanding north due to feeders and milder winters",
+    "twoPeakSeasons": "March-April (Rufous breeding), July-August (Rufous south migration)"
+  },
+  "apiEndpoints": {
+    "migrationData": "/api/migration/rufous/2026.json",
+    "currentSightings": "/api/migration/current.json?state=WA",
+    "productInfo": "/api/products/REM-004.json"
+  },
+  "lastUpdated": "2026-02-22",
+  "dataSources": ["Cornell Lab of Ornithology", "Washington Native Plant Society", "eBird"]
+}

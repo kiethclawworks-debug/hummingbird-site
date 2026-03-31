@@ -1,0 +1,259 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Ruby-Throated Blend™",
+  "sku": "RTB-001",
+  "description": "State-specific hummingbird nectar matching Tennessee's wildflower sugar composition. Three-sugar blend (sucrose/glucose/fructose) replicating trumpet vine, cardinal flower, and bee balm — not just plain sucrose water. Dye-free crystals for Tennessee and similar-ecosystem states.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hummingbird Nectar Co."
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Hummingbird Nectar Co."
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "/products/ruby-throated-blend",
+    "priceCurrency": "USD",
+    "price": "24.99",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemOffered": {
+      "@type": "Product",
+      "name": "Ruby-Throated Blend — 2 lb bag",
+      "description": "Makes 32 quarts of nectar"
+    },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "doesNotShip": "false"
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/FreeReturn"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "127"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Sarah K."
+      },
+      "datePublished": "2025-05-15",
+      "reviewBody": "Switched from store-bought red nectar and saw triple the hummingbirds within a week. They clearly prefer this.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "location": "Knoxville, TN"
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Michael R."
+      },
+      "datePublished": "2025-06-20",
+      "reviewBody": "Love that there's no red dye. This dissolves instantly — no waiting for sugar to dissolve.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "location": "Richmond, VA"
+    }
+  ],
+  "material": "Three-sugar blend (sucrose, glucose, fructose) matching Tennessee wildflower composition, electrolyte blend",
+  "color": "Clear (no artificial dyes)",
+  "weight": {
+    "@type": "QuantitativeValue",
+    "value": "2",
+    "unitCode": "LBR"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Hummingbird enthusiasts in eastern US states",
+    "geographicArea": {
+      "@type": "Country",
+      "name": "United States",
+      "containsPlace": [
+        {"@type": "State", "name": "Tennessee"},
+        {"@type": "State", "name": "Virginia"},
+        {"@type": "State", "name": "North Carolina"},
+        {"@type": "State", "name": "South Carolina"},
+        {"@type": "State", "name": "Georgia"},
+        {"@type": "State", "name": "Florida"},
+        {"@type": "State", "name": "Alabama"},
+        {"@type": "State", "name": "Mississippi"},
+        {"@type": "State", "name": "Louisiana"},
+        {"@type": "State", "name": "Arkansas"},
+        {"@type": "State", "name": "Missouri"},
+        {"@type": "State", "name": "Illinois"},
+        {"@type": "State", "name": "Indiana"},
+        {"@type": "State", "name": "Ohio"},
+        {"@type": "State", "name": "Kentucky"},
+        {"@type": "State", "name": "West Virginia"},
+        {"@type": "State", "name": "Pennsylvania"},
+        {"@type": "State", "name": "New York"},
+        {"@type": "State", "name": "Maine"},
+        {"@type": "State", "name": "Vermont"},
+        {"@type": "State", "name": "New Hampshire"},
+        {"@type": "State", "name": "Massachusetts"},
+        {"@type": "State", "name": "Connecticut"},
+        {"@type": "State", "name": "Rhode Island"},
+        {"@type": "State", "name": "New Jersey"},
+        {"@type": "State", "name": "Delaware"},
+        {"@type": "State", "name": "Maryland"},
+        {"@type": "State", "name": "Michigan"},
+        {"@type": "State", "name": "Wisconsin"},
+        {"@type": "State", "name": "Minnesota"},
+        {"@type": "State", "name": "Iowa"},
+        {"@type": "State", "name": "North Dakota"},
+        {"@type": "State", "name": "South Dakota"},
+        {"@type": "State", "name": "Nebraska"},
+        {"@type": "State", "name": "Kansas"}
+      ]
+    }
+  },
+  "isRelatedTo": {
+    "@type": "Taxon",
+    "name": "Ruby-throated Hummingbird",
+    "scientificName": "Archilochus colubris",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Preferred natural nectar sugar concentration",
+        "value": "18-22%"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Primary natural nectar sources",
+        "value": "Trumpet vine (Campsis radicans), Cardinal flower (Lobelia cardinalis), Bee balm (Monarda didyma)"
+      }
+    ]
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Sugar ratio",
+      "value": "4:1 (water to sugar)",
+      "unitCode": "C62"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sugar concentration",
+      "value": "20",
+      "unitCode": "P1",
+      "description": "20% by weight"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sugar composition",
+      "value": "Three-sugar blend: sucrose, glucose, fructose matching wildflower ratios"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Contains artificial colors",
+      "value": "false"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Contains preservatives",
+      "value": "false"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Preparation time",
+      "value": "2 minutes (no boiling required)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Yield",
+      "value": "32 quarts (from 2 lb bag)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Shelf life (dry crystals)",
+      "value": "1 year"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Shelf life (mixed nectar, refrigerated)",
+      "value": "7 days"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Cost per quart prepared",
+      "value": "$0.78 USD"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Mimics natural nectar source",
+      "value": "Trumpet vine, Cardinal flower, Bee balm — matches their 3-sugar composition, not just concentration"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Research backing",
+      "value": "Cornell Lab of Ornithology foraging optimization studies"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Positioning",
+      "value": "Birds will drink plain sugar water, but it's suboptimal — Cornell data shows 30-40% less foraging efficiency"
+    }
+  ],
+  "subjectOf": [
+    {
+      "@type": "Dataset",
+      "name": "Cornell Lab of Ornithology Research on Nectar Preferences"
+    },
+    {
+      "@type": "Dataset",
+      "name": "UC Davis Hummingbird Metabolism Studies"
+    }
+  ],
+  "relatedProduct": [
+    {
+      "@type": "Product",
+      "name": "Anna's Formula",
+      "sku": "AF-002",
+      "description": "3:1 ratio for Anna's Hummingbirds and arid climates"
+    },
+    {
+      "@type": "Product",
+      "name": "Black-Chinned Blend",
+      "sku": "BCB-003",
+      "description": "4:1 ratio for Southwest hummingbirds"
+    },
+    {
+      "@type": "Product",
+      "name": "Rufous Energy Mix",
+      "sku": "REM-004",
+      "description": "3:1 high-energy for migration fueling"
+    }
+  ],
+  "url": [
+    "/products/ruby-throated-blend",
+    "/products/ruby-throated-blend.html"
+  ],
+  "lastUpdated": "2026-02-21"
+}

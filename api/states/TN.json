@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Tennessee",
+  "stateCode": "TN",
+  "stateFlower": {
+    "@type": "Product",
+    "name": "Iris",
+    "scientificName": "Iris sp.",
+    "color": ["purple", "blue", "yellow", "white"],
+    "bloomSeason": "April-June"
+  },
+  "hummingbirdSpecies": [
+    {
+      "@type": "Thing",
+      "name": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "isPrimary": true,
+      "arrivalDate2026": "2026-04-05/2026-04-20",
+      "peakSeason": "2026-04-20/2026-05-10",
+      "departureDate2026": "2026-09-15/2026-10-15"
+    }
+  ],
+  "feedingGuide": {
+    "feederSetupDate": "2026-03-20",
+    "feederSetupReason": "Early scouts arrive 2-3 weeks before main wave",
+    "peakFeedingMonths": ["May", "June", "July", "August"],
+    "recommendedNectarRatio": "4:1",
+    "recommendedSugarComposition": "3-sugar blend: sucrose + glucose + fructose matching TN wildflowers",
+    "whyNotPlainSugarWater": "TN wildflowers produce specific sugar blends, not just sucrose",
+    "recommendedProduct": {
+      "@type": "Product",
+      "name": "Ruby-Throated Blend - Tennessee Formula",
+      "productID": "RTB-001",
+      "whyRecommended": "3-sugar blend matching Tennessee wildflowers (trumpet vine, cardinal flower, bee balm) — not just plain sugar water"
+    }
+  },
+  "regionalVariations": {
+    "eastTN": {
+      "region": "East Tennessee (Knoxville, mountains)",
+      "setupDate": "2026-04-01",
+      "arrivalDelay": "1-2 weeks later than west TN",
+      "bestFlowers": ["Native azaleas", "Rhododendron", "Cardinal flower"]
+    },
+    "middleTN": {
+      "region": "Middle Tennessee (Nashville area)",
+      "setupDate": "2026-03-25",
+      "typicalArrival": "2026-04-10/2026-04-15",
+      "bestFlowers": ["Iris", "Bee balm", "Trumpet vine"]
+    },
+    "westTN": {
+      "region": "West Tennessee (Memphis area)",
+      "setupDate": "2026-03-20",
+      "typicalArrival": "2026-04-05/2026-04-10",
+      "bestFlowers": ["Native honeysuckle", "Red buckeye", "Iris"]
+    }
+  },
+  "nativeFlowersForHummingbirds": [
+    {
+      "name": "Cardinal Flower",
+      "scientificName": "Lobelia cardinalis",
+      "bloomTime": "July-September",
+      "color": "red",
+      "native": true
+    },
+    {
+      "name": "Trumpet Vine",
+      "scientificName": "Campsis radicans",
+      "bloomTime": "June-September",
+      "color": "orange",
+      "native": true
+    },
+    {
+      "name": "Bee Balm",
+      "scientificName": "Monarda didyma",
+      "bloomTime": "June-August",
+      "color": "pink/red",
+      "native": true
+    },
+    {
+      "name": "Columbine",
+      "scientificName": "Aquilegia canadensis",
+      "bloomTime": "April-May",
+      "color": "red/yellow",
+      "native": true
+    },
+    {
+      "name": "Red Buckeye",
+      "scientificName": "Aesculus pavia",
+      "bloomTime": "April-May",
+      "color": "red",
+      "native": true
+    }
+  ],
+  "apiEndpoints": {
+    "migrationData": "/api/migration/ruby-throated/2026.json",
+    "currentSightings": "/api/migration/current.json?state=TN",
+    "productInfo": "/api/products/RTB-001.json"
+  },
+  "lastUpdated": "2026-02-21",
+  "dataSources": ["Cornell Lab of Ornithology", "Journey North", "Tennessee Wildlife Resources Agency", "eBird"]
+}

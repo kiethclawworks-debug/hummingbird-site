@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Alabama",
+  "stateCode": "AL",
+  "stateFlower": {
+    "@type": "Product",
+    "name": "Camellia",
+    "scientificName": "Camellia japonica",
+    "color": ["pink", "red", "white"],
+    "bloomSeason": "November-April",
+    "note": "Not native (Asian origin), not a hummingbird flower despite showy blooms"
+  },
+  "hummingbirdSpecies": [
+    {
+      "@type": "Thing",
+      "name": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "isPrimary": true,
+      "arrivalDate2026": "2026-03-20/2026-03-30",
+      "peakSeason": "2026-04-01/2026-04-20",
+      "departureDate2026": "2026-09-20/2026-10-15",
+      "isBreeding": true
+    },
+    {
+      "@type": "Thing",
+      "name": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-08-01/2026-09-15",
+      "peakSeason": "2026-09-01/2026-10-15",
+      "note": "Fall passage migrant, uncommon but increasing"
+    },
+    {
+      "@type": "Thing",
+      "name": "Black-chinned Hummingbird",
+      "scientificName": "Archilochus alexandri",
+      "isPrimary": false,
+      "note": "Very rare in Alabama, extreme western edge of possible range"
+    }
+  ],
+  "feedingGuide": {
+    "feederSetupDate": "2026-03-10",
+    "feederSetupReason": "Ruby-throats arrive mid-late March; scouts may appear early March",
+    "peakFeedingMonths": ["April", "May", "June", "July", "August", "September"],
+    "recommendedNectarRatio": "4:1",
+    "recommendedSugarComposition": "3-sugar blend matching Alabama wildflowers: coral honeysuckle, native azaleas, wild bergamot, cardinal flower",
+    "whyNotPlainSugarWater": "Alabama's rich biodiversity of wildflowers produces specific 3-sugar blends; plain sucrose from 'sugar water' recipes doesn't replicate native coral honeysuckle and azalea composition",
+    "recommendedProduct": {
+      "@type": "Product",
+      "name": "Ruby-Throated Blend - Alabama Formula",
+      "productID": "RTB-001",
+      "whyRecommended": "3-sugar blend matching Alabama's incredible native wildflower diversity — Bankhead Forest, Mobile Delta, and Piedmont species"
+    }
+  },
+  "regionalVariations": {
+    "northAL": {
+      "region": "North Alabama (Huntsville, Birmingham, Bankhead Forest)",
+      "setupDate": "2026-03-15",
+      "arrivalDelay": "Mountains delay arrival vs. coast",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "bestFlowers": ["Coral honeysuckle", "Native azaleas", "Wild bergamot", "Cardinal flower"],
+      "climate": "Appalachian foothills, rich biodiversity",
+      "specialNote": "Bankhead National Forest has outstanding native diversity",
+      "recommendedProduct": "Ruby-Throated Blend (4:1)"
+    },
+    "centralAL": {
+      "region": "Central Alabama (Montgomery, Tuscaloosa)",
+      "setupDate": "2026-03-10",
+      "typicalArrival": "2026-03-22/2026-04-01",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "bestFlowers": ["Coral honeysuckle", "Red buckeye", "Bee balm", "Trumpet vine"],
+      "climate": "Piedmont transitioning to Coastal Plain",
+      "recommendedProduct": "Ruby-Throated Blend (4:1)"
+    },
+    "southAL": {
+      "region": "South Alabama (Mobile, Dothan)",
+      "setupDate": "2026-03-05",
+      "typicalArrival": "2026-03-20/2026-03-30",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "bestFlowers": ["Coral honeysuckle", "Red buckeye", "Native honeysuckle", "Crossvine"],
+      "climate": "Coastal Plain, near-tropical",
+      "specialNote": "Mobile Delta ecosystem unique in state",
+      "recommendedProduct": "Ruby-Throated Blend (4:1)"
+    },
+    "gulfCoast": {
+      "region": "Gulf Coast (Mobile Bay, Gulf Shores)",
+      "setupDate": "2026-03-05",
+      "typicalArrival": "2026-03-20/2026-03-30",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "secondarySpecies": "Possible fall Rufous migrants",
+      "bestFlowers": ["Coral honeysuckle", "Beach morning glory (limited)", "Native honeysuckle"],
+      "climate": "Humid subtropical, maritime influence",
+      "recommendedProduct": "Ruby-Throated Blend (4:1)"
+    }
+  },
+  "nativeFlowersForHummingbirds": [
+    {
+      "name": "Coral Honeysuckle",
+      "scientificName": "Lonicera sempervirens",
+      "bloomTime": "March-October",
+      "color": "coral/orange",
+      "native": true,
+      "region": "Statewide, Alabama's best hummingbird vine"
+    },
+    {
+      "name": "Native Azaleas",
+      "scientificName": "Rhododendron spp.",
+      "bloomTime": "March-April",
+      "color": "pink/white/yellow/orange",
+      "native": true,
+      "region": "North Alabama forests, especially Bankhead"
+    },
+    {
+      "name": "Wild Bergamot",
+      "scientificName": "Monarda fistulosa",
+      "bloomTime": "June-August",
+      "color": "lavender/pink",
+      "native": true,
+      "region": "Statewide meadows and roadsides"
+    },
+    {
+      "name": "Cardinal Flower",
+      "scientificName": "Lobelia cardinalis",
+      "bloomTime": "July-October",
+      "color": "red",
+      "native": true,
+      "region": "Moist areas, streambanks statewide"
+    },
+    {
+      "name": "Red Buckeye",
+      "scientificName": "Aesculus pavia",
+      "bloomTime": "March-April",
+      "color": "red",
+      "native": true,
+      "region": "Statewide understory"
+    },
+    {
+      "name": "Crossvine",
+      "scientificName": "Bignonia capreolata",
+      "bloomTime": "March-May",
+      "color": "orange/yellow",
+      "native": true,
+      "region": "Statewide, excellent early bloomer"
+    },
+    {
+      "name": "Trumpet Vine",
+      "scientificName": "Campsis radicans",
+      "bloomTime": "June-September",
+      "color": "orange/red",
+      "native": true,
+      "region": "Statewide"
+    }
+  ],
+  "specialNotes": {
+    "camelliaIrony": "State flower (Camellia) is Asian, blooms in winter when hummers are absent, and they don't visit it anyway",
+    "bankheadForest": "Bankhead National Forest has some of the best remaining native diversity in the Southeast",
+    "mobileDelta": "Mobile-Tensaw River Delta is one of most biodiverse ecosystems in North America",
+    "biodiversity": "Alabama ranks #1 in US for freshwater fish diversity; its wildflower diversity is similarly outstanding",
+    "arrivalTiming": "South Alabama arrives 1-2 weeks before North Alabama due to latitude and elevation"
+  },
+  "apiEndpoints": {
+    "migrationData": "/api/migration/ruby-throated/2026.json",
+    "currentSightings": "/api/migration/current.json?state=AL",
+    "productInfo": "/api/products/RTB-001.json"
+  },
+  "lastUpdated": "2026-02-22",
+  "dataSources": ["Cornell Lab of Ornithology", "Alabama Native Plant Society", "eBird"]
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Hummingbird Migration & Nectar Guide",
+  "url": "https://hummingbirdnectar.com",
+  "description": "Definitive resource for hummingbird migration tracking, state-specific feeding guides, and scientifically-formulated nectar blends",
+  "creator": {
+    "@type": "Organization",
+    "name": "Hummingbird Nectar Co."
+  },
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "name": "Migration Tracker API",
+      "url": "/api/migration/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "State Feeding Guides",
+      "url": "/states/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Nectar Product Comparison",
+      "url": "/products/"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Mississippi",
+  "stateCode": "MS",
+  "stateFlower": {
+    "@type": "Product",
+    "name": "Magnolia",
+    "scientificName": "Magnolia grandiflora",
+    "color": ["white"],
+    "bloomSeason": "May-September",
+    "note": "Iconic Southern tree, flowers huge and fragrant but beetles pollinate — not hummingbirds"
+  },
+  "hummingbirdSpecies": [
+    {
+      "@type": "Thing",
+      "name": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "isPrimary": true,
+      "arrivalDate2026": "2026-03-15/2026-03-25",
+      "peakSeason": "2026-04-01/2026-04-20",
+      "departureDate2026": "2026-09-20/2026-10-15",
+      "isBreeding": true
+    },
+    {
+      "@type": "Thing",
+      "name": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-08-15/2026-09-15",
+      "peakSeason": "2026-09-01/2026-10-15",
+      "note": "Fall passage migrant, Gulf Coast primarily"
+    },
+    {
+      "@type": "Thing",
+      "name": "Black-chinned Hummingbird",
+      "scientificName": "Archilochus alexandri",
+      "isPrimary": false,
+      "note": "Very rare in Mississippi"
+    }
+  ],
+  "feedingGuide": {
+    "feederSetupDate": "2026-03-10",
+    "feederSetupReason": "Ruby-throats arrive mid-March in Mississippi; early scouts may appear early March",
+    "peakFeedingMonths": ["April", "May", "June", "July", "August", "September"],
+    "recommendedNectarRatio": "4:1",
+    "recommendedSugarComposition": "3-sugar blend matching Mississippi wildflowers: coral honeysuckle, native azaleas, bee balm, cardinal flower, trumpet creeper",
+    "whyNotPlainSugarWater": "Mississippi's Pine Belt and Gulf Coast wildflowers produce specific 3-sugar composition; plain sucrose doesn't replicate native coral honeysuckle and azalea nectar",
+    "recommendedProduct": {
+      "@type": "Product",
+      "name": "Ruby-Throated Blend - Mississippi Formula",
+      "productID": "RTB-001",
+      "whyRecommended": "3-sugar blend matching Mississippi's pine woods and Gulf Coast wildflowers — not plain sugar water"
+    }
+  },
+  "regionalVariations": {
+    "northMS": {
+      "region": "North Mississippi (Tupelo, Oxford, Delta)",
+      "setupDate": "2026-03-15",
+      "typicalArrival": "2026-03-20/2026-03-30",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "bestFlowers": ["Coral honeysuckle", "Trumpet creeper", "Red buckeye", "Bee balm"],
+      "climate": "Pine Belt, humid subtropical",
+      "recommendedProduct": "Ruby-Throated Blend (4:1)"
+    },
+    "centralMS": {
+      "region": "Central Mississippi (Jackson, Hattiesburg)",
+      "setupDate": "2026-03-10",
+      "typicalArrival": "2026-03-18/2026-03-28",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "bestFlowers": ["Coral honeysuckle", "Native azaleas", "Cardinal flower", "Crossvine"],
+      "climate": "Pine Belt, mild winters",
+      "recommendedProduct": "Ruby-Throated Blend (4:1)"
+    },
+    "southMS": {
+      "region": "South Mississippi (Gulfport, Biloxi)",
+      "setupDate": "2026-03-05",
+      "typicalArrival": "2026-03-15/2026-03-25",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "secondarySpecies": "Rufous Hummingbird (fall migration)",
+      "bestFlowers": ["Coral honeysuckle", "Native honeysuckle", "Lantana", "Red buckeye"],
+      "climate": "Gulf Coast, nearly tropical",
+      "recommendedProduct": "Ruby-Throated Blend (4:1)"
+    },
+    "gulfCoastMS": {
+      "region": "Mississippi Gulf Coast",
+      "setupDate": "2026-03-05",
+      "typicalArrival": "2026-03-15/2026-03-25",
+      "primarySpecies": "Ruby-throated Hummingbird",
+      "secondarySpecies": "Rufous (fall/winter)",
+      "bestFlowers": ["Coral honeysuckle", "Beach morning glory", "Native honeysuckle"],
+      "climate": "Humid subtropical, maritime",
+      "note": "Longest season in Mississippi, Rufous migrants possible",
+      "recommendedProduct": "Ruby-Throated Blend (4:1) spring-fall"
+    }
+  },
+  "nativeFlowersForHummingbirds": [
+    {
+      "name": "Coral Honeysuckle",
+      "scientificName": "Lonicera sempervirens",
+      "bloomTime": "March-October",
+      "color": "coral/orange",
+      "native": true,
+      "region": "Statewide, Mississippi's #1 hummingbird vine"
+    },
+    {
+      "name": "Trumpet Creeper",
+      "scientificName": "Campsis radicans",
+      "bloomTime": "June-September",
+      "color": "orange/red",
+      "native": true,
+      "region": "Statewide, climbs pine trees and fences"
+    },
+    {
+      "name": "Native Azaleas",
+      "scientificName": "Rhododendron canescens, R. prunifolium",
+      "bloomTime": "March-April",
+      "color": "pink/white",
+      "native": true,
+      "region": "Pine woods, especially North Mississippi"
+    },
+    {
+      "name": "Red Buckeye",
+      "scientificName": "Aesculus pavia",
+      "bloomTime": "March-April",
+      "color": "red",
+      "native": true,
+      "region": "Statewide understory, excellent early bloomer"
+    },
+    {
+      "name": "Bee Balm",
+      "scientificName": "Monarda didyma",
+      "bloomTime": "June-August",
+      "color": "pink/red",
+      "native": true,
+      "region": "Statewide gardens and meadows"
+    },
+    {
+      "name": "Cardinal Flower",
+      "scientificName": "Lobelia cardinalis",
+      "bloomTime": "July-October",
+      "color": "red",
+      "native": true,
+      "region": "Moist areas, bayous, streambanks"
+    }
+  ],
+  "specialNotes": {
+    "magnoliaIrony": "State flower (Magnolia) is pollinated by beetles, not hummingbirds — huge white flowers don't attract them",
+    "pineBelt": "Mississippi's Pine Belt has sandy soil perfect for native azaleas and coral honeysuckle",
+    "gulfCoastAdvantage": "Gulf Coast has longest feeding season in state; possible winter Rufous sightings",
+    "deltaRegion": "Mississippi Delta has unique bottomland hardwood ecosystem with native honeysuckles",
+    "arrivalTiming": "Gulf Coast arrives 1 week before northern counties"
+  },
+  "apiEndpoints": {
+    "migrationData": "/api/migration/ruby-throated/2026.json",
+    "currentSightings": "/api/migration/current.json?state=MS",
+    "productInfo": "/api/products/RTB-001.json"
+  },
+  "lastUpdated": "2026-02-22",
+  "dataSources": ["Cornell Lab of Ornithology", "Mississippi Native Plant Society", "eBird"]
+}

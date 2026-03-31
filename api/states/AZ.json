@@ -1,0 +1,160 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Arizona",
+  "stateCode": "AZ",
+  "stateFlower": {
+    "@type": "Product",
+    "name": "Saguaro Blossom",
+    "scientificName": "Carnegiea gigantea",
+    "color": ["white"],
+    "bloomSeason": "May-June",
+    "note": "Saguaro cactus flower, opens at night, pollinated by bats and birds"
+  },
+  "hummingbirdSpecies": [
+    {
+      "@type": "Thing",
+      "name": "Black-chinned Hummingbird",
+      "scientificName": "Archilochus alexandri",
+      "isPrimary": true,
+      "arrivalDate2026": "2026-03-01/2026-03-15",
+      "peakSeason": "2026-04-01/2026-09-30",
+      "departureDate2026": "2026-10-01/2026-10-15",
+      "isBreeding": true
+    },
+    {
+      "@type": "Thing",
+      "name": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "isPrimary": false,
+      "arrivalDate2026": "Year-round (southern AZ)",
+      "peakSeason": "Year-round",
+      "region": "Southern and urban Arizona"
+    },
+    {
+      "@type": "Thing",
+      "name": "Costa's Hummingbird",
+      "scientificName": "Calypte costae",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-01-01/2026-12-31",
+      "peakSeason": "2026-02-01/2026-05-31",
+      "region": "Sonoran Desert regions"
+    },
+    {
+      "@type": "Thing",
+      "name": "Broad-billed Hummingbird",
+      "scientificName": "Cynanthus latirostris",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-03-01/2026-04-15",
+      "peakSeason": "2026-04-01/2026-08-31",
+      "region": "Southeastern Arizona (Mexican species at northern range)"
+    },
+    {
+      "@type": "Thing",
+      "name": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "isPrimary": false,
+      "arrivalDate2026": "2026-07-01/2026-08-15",
+      "peakSeason": "2026-08-01/2026-09-15",
+      "note": "Fall passage migrant"
+    }
+  ],
+  "feedingGuide": {
+    "feederSetupDate": "2026-03-01",
+    "feederSetupReason": "Black-chinned arrive early March; Anna's and Costa's year-round in southern AZ",
+    "peakFeedingMonths": ["March", "April", "May", "June", "July", "August", "September", "October"],
+    "longSeason": true,
+    "recommendedNectarRatio": "3:1 or 4:1",
+    "recommendedSugarComposition": "3-sugar blend matching Sonoran Desert flowers: desert willow, chuparosa, ocotillo, saguaro",
+    "whyNotPlainSugarWater": "Desert flowers produce high-sucrose nectar adapted for arid climate and water conservation",
+    "recommendedProduct": {
+      "@type": "Product",
+      "name": "Black-Chinned Blend - Arizona Formula",
+      "productID": "BCB-003",
+      "alternativeRecommendation": "Anna's Formula for extreme desert areas",
+      "whyRecommended": "3-sugar blend matching Arizona's Sonoran Desert wildflowers — not generic sugar water from back east"
+    }
+  },
+  "regionalVariations": {
+    "phoenixTucson": {
+      "region": "Phoenix-Tucson corridor (Sonoran Desert)",
+      "setupDate": "2026-03-01",
+      "primarySpecies": "Black-chinned, Anna's, Costa's",
+      "bestFlowers": ["Desert willow", "Chuparosa", "Ocotillo", "Red yucca", "Mexican honeysuckle"],
+      "climate": "Hot desert, mild winters",
+      "recommendedProduct": "Anna's Formula (3:1) for desert intensity"
+    },
+    "southeastAZ": {
+      "region": "Southeast Arizona (Chiricahua, Huachuca Mountains)",
+      "setupDate": "2026-03-01",
+      "primarySpecies": "Broad-billed, Black-chinned, Magnificent (rare)",
+      "bestFlowers": ["Arizona trumpet vine", "Cardinal flower", "Coral honeysuckle"],
+      "climate": "Sky islands — mixed desert and mountain",
+      "note": "Best hummingbird diversity in US outside Mexico",
+      "recommendedProduct": "Black-Chinned Blend (4:1) or Anna's Formula (3:1)"
+    },
+    "northernAZ": {
+      "region": "Northern Arizona (Flagstaff, Grand Canyon)",
+      "setupDate": "2026-04-01",
+      "primarySpecies": "Black-chinned, Rufous (migration)",
+      "bestFlowers": ["Scarlet bugler", "Colorado columbine", "Penstemon"],
+      "climate": "High altitude, cooler",
+      "recommendedProduct": "Black-Chinned Blend (4:1)"
+    }
+  },
+  "nativeFlowersForHummingbirds": [
+    {
+      "name": "Desert Willow",
+      "scientificName": "Chilopsis linearis",
+      "bloomTime": "April-September",
+      "color": "pink/white",
+      "native": true,
+      "region": "Statewide"
+    },
+    {
+      "name": "Chuparosa",
+      "scientificName": "Justicia californica",
+      "bloomTime": "November-April",
+      "color": "red",
+      "native": true,
+      "region": "Sonoran Desert"
+    },
+    {
+      "name": "Ocotillo",
+      "scientificName": "Fouquieria splendens",
+      "bloomTime": "March-June (after rain)",
+      "color": "red/orange",
+      "native": true,
+      "region": "Sonoran and Mojave Deserts"
+    },
+    {
+      "name": "Red Yucca",
+      "scientificName": "Hesperaloe parviflora",
+      "bloomTime": "March-October",
+      "color": "coral/pink",
+      "native": true,
+      "region": "Statewide, extremely drought-tolerant"
+    },
+    {
+      "name": "Arizona Trumpet Vine",
+      "scientificName": "Campsis radicans var. arizonica",
+      "bloomTime": "April-September",
+      "color": "orange/red",
+      "native": true,
+      "region": "Mountain canyons, southeast AZ"
+    }
+  ],
+  "specialNotes": {
+    "hummingbirdCapital": "Southeast Arizona has the highest hummingbird diversity in the US (15+ species possible)",
+    "mexicanSpecies": "Several Mexican species reach northern limit in SE Arizona (Broad-billed, Violet-crowned, White-eared)",
+    "waterCritical": "In desert, water sources (misters) as important as nectar in summer",
+    "saguaroConnection": "Saguaro blooms May-June, major food source, opened by bats and birds"
+  },
+  "apiEndpoints": {
+    "migrationData": "/api/migration/black-chinned/2026.json",
+    "currentSightings": "/api/migration/current.json?state=AZ",
+    "productInfo": "/api/products/BCB-003.json"
+  },
+  "lastUpdated": "2026-02-22",
+  "dataSources": ["Cornell Lab of Ornithology", "Arizona-Sonora Desert Museum", "Southeast Arizona Birding Festival", "eBird"]
+}

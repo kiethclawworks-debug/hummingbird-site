@@ -1,0 +1,22 @@
+{
+  "api_version": "1.0",
+  "last_updated": "2026-02-21",
+  "data_source": "Cornell Lab of Ornithology, Journey North, eBird",
+  "endpoints": {
+    "migration_by_species": "/api/migration/{species}/{year}.json",
+    "migration_current": "/api/migration/current.json",
+    "state_guide": "/api/states/{state_code}.json",
+    "product_specs": "/api/products/{product_id}.json",
+    "comparison": "/api/compare/nectar.json"
+  },
+  "species_covered": [
+    "ruby-throated",
+    "black-chinned",
+    "anna",
+    "rufous",
+    "calliope",
+    "broad-tailed",
+    "allen"
+  ],
+  "states_covered": 50
+}

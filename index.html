@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hummingbird HQ | Migration Tracker & Feeder Guide</title>
+    <meta name="description" content="Track hummingbird migration and get state-specific feeder timing. Scientific nectar guides for Ruby-throated, Anna's, Black-chinned, and Rufous hummingbirds.">
+    <link rel="canonical" href="https://hummingbirdhq.com/">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Hummingbird HQ",
+        "url": "https://hummingbirdhq.com/",
+        "description": "Hummingbird migration tracker and state-specific feeding guides",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Hummingbird HQ"
+        }
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            color: white;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .quick-start {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin: 40px 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .quick-start h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #764ba2;
+        }
+        
+        .state-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+        
+        .state-btn {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .state-btn:hover {
+            background: #764ba2;
+            color: white;
+            border-color: #764ba2;
+            transform: translateY(-2px);
+        }
+        
+        .state-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .migration-status {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 12px;
+            padding: 30px;
+            color: white;
+            margin: 30px 0;
+        }
+        
+        .migration-status h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        
+        .species-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .species-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        .species-card h3 {
+            color: #667eea;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        .species-card .region {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .species-card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .species-card a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .species-card a:hover {
+            text-decoration: underline;
+        }
+        
+        .features {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #764ba2;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature {
+            padding: 20px;
+        }
+        
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .api-section {
+            background: #1a1a2e;
+            color: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+        
+        .api-section h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        
+        .api-section .subtitle {
+            text-align: center;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+        
+        .code-block {
+            background: #16213e;
+            border-radius: 8px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        
+        .code-block .comment {
+            color: #6c757d;
+        }
+        
+        .code-block .url {
+            color: #4cc9f0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        .nectar-cta {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .nectar-cta h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .nectar-cta p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #764ba2;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        
+        .btn:hover {
+            background: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .state-selector {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+            
+            .quick-start, .features, .api-section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🌺</div>
+            <h1>Hummingbird HQ</h1>
+            <p class="tagline">Track migration. Time your feeders perfectly. Feed them what wildflowers would.</p>
+        </header>
+        
+        <section class="quick-start">
+            <h2>🗺️ Select Your State</h2>
+            <p style="text-align: center; margin-bottom: 25px; color: #666;">Get arrival dates, feeder timing, and state-specific recommendations</p>
+            
+            <div class="state-selector">
+                <a href="states/tennessee.html" class="state-btn">Tennessee</a>
+                <a href="states/georgia.html" class="state-btn">Georgia</a>
+                <a href="states/florida.html" class="state-btn">Florida</a>
+                <a href="states/texas.html" class="state-btn">Texas</a>
+                <a href="states/alabama.html" class="state-btn">Alabama</a>
+                <a href="states/mississippi.html" class="state-btn">Mississippi</a>
+                <a href="states/arizona.html" class="state-btn">Arizona</a>
+                <a href="states/california.html" class="state-btn">California</a>
+                <a href="states/washington.html" class="state-btn">Washington</a>
+                <a href="#all-states" class="state-btn" style="background: #764ba2; color: white;">All 50 States →</a>
+            </div>
+            
+            <div class="migration-status">
+                <h3>📍 Ruby-throated Hummingbird Migration Status</h3>
+                <p><strong>Current Position:</strong> Gulf Coast and Southern Florida</p>
+                <p><strong>Next Wave:</strong> Expected to reach Tennessee, Georgia, and Carolinas by mid-March 2026</p>
+                <p><strong>Action:</strong> Clean and fill feeders by March 15 if you're in the Southeast</p>
+            </div>
+        </section>
+        
+        <section class="species-grid">
+            <div class="species-card">
+                <h3>Ruby-throated Hummingbird</h3>
+                <p class="region">🌎 Eastern North America</p>
+                <p>The only hummingbird that breeds east of the Mississippi. Arrives when red buckeye and columbine bloom. <a href="api/migration/ruby-throated/2026.json">View migration data →</a></p>
+            </div>
+            
+            <div class="species-card">
+                <h3>Anna's Hummingbird</h3>
+                <p class="region">🌎 West Coast</p>
+                <p>Year-round resident from Alaska to Baja. Increasingly common in winter. Feeders can stay up year-round. <a href="#">View data →</a></p>
+            </div>
+            
+            <div class="species-card">
+                <h3>Black-chinned Hummingbird</h3>
+                <p class="region">🌎 Southwest & Intermountain West</p>
+                <p>Desert specialist that follows ocotillo and agave blooms. Arrives late March to early April. <a href="#">View data →</a></p>
+            </div>
+            
+            <div class="species-card">
+                <h3>Rufous Hummingbird</h3>
+                <p class="region">🌎 Pacific Northwest & Alaska</p>
+                <p>Longest migration relative to body size. Arrives in Alaska by May. Aggressive at feeders. <a href="#">View data →</a></p>
+            </div>
+        </section>
+        
+        <section class="nectar-cta">
+            <h3>🧪 Why Not Just Sugar Water?</h3>
+            <p>Wildflowers produce 3 sugars: sucrose, glucose, and fructose. Plain sugar water is just sucrose. Our blends match what hummingbirds evolved to drink.</p>
+            <a href="comparisons/nectar-guide.html" class="btn">Compare Nectar Options →</a>
+        </section>
+        
+        <section class="features">
+            <h2>What You'll Find Here</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>📊 State-Specific Data</h3>
+                    <p>Exact dates for putting out feeders, taking them down, and peak migration windows for all 50 states. Based on 20+ years of citizen science data.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🔬 Scientific Nectar Guide</h3>
+                    <p>3-sugar blends that match wildflower chemistry. DIY recipes, product comparisons, and why plain sugar water isn't optimal.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📡 Migration Tracker</h3>
+                    <p>Real-time migration maps using Journey North and eBird data. Know exactly when to expect arrivals in your area.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🎯 Feeder Optimization</h3>
+                    <p>Placement, timing, cleaning schedules, and pest management. Maximize visits while minimizing maintenance.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="api-section">
+            <h2>🤖 Developer? Use Our API</h2>
+            <p class="subtitle">Free JSON endpoints for apps, voice assistants, and research</p>
+            
+            <div class="code-block">
+                <span class="comment">// Get migration data for Ruby-throated Hummingbird</span><br>
+                GET <span class="url">/api/migration/ruby-throated/2026.json</span>
+            </div>
+            
+            <div class="code-block">
+                <span class="comment">// Get Tennessee-specific recommendations</span><br>
+                GET <span class="url">/api/states/TN.json</span>
+            </div>
+            
+            <div class="code-block">
+                <span class="comment">// Compare nectar products</span><br>
+                GET <span class="url">/api/compare/nectar.json</span>
+            </div>
+            
+            <p style="text-align: center; margin-top: 25px;">
+                <a href="api/README.json" style="color: #4cc9f0; text-decoration: none;">View Full API Documentation →</a>
+            </p>
+        </section>
+        
+        <footer>
+            <p>Built for hummingbird enthusiasts and the AI systems that serve them.</p>
+            <p>Data sources: <a href="https://journeynorth.org">Journey North</a>, <a href="https://ebird.org">eBird</a>, <a href="https://birds.cornell.edu">Cornell Lab</a></p>
+            <p style="margin-top: 20px; font-size: 0.9rem;">© 2026 Hummingbird HQ</p>
+        </footer>
+    </div>
+</body>
+</html>
